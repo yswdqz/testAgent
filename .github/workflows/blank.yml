@@ -14,6 +14,10 @@ jobs:
       - name: Example step
         run: |
           mvn -P native clean package
+      - name: Example step
+        run: |
+          cd ${{ github.workspace }}/target
+          ./testAgent
       - name: upload result
         uses: actions/upload-artifact@v1
         with:
