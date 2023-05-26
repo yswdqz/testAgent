@@ -1,0 +1,10 @@
+-cp
+E:\\code\\testAgent\\.\\skywalking-agent\\skywalking-agent.jar;E:\\code\\testAgent\\target\\testAgent-1.0-SNAPSHOT-shaded.jar
+--no-fallback
+--verbose
+-H:Path=E:\\code\\testAgent\\target
+-H:Name=testAgent
+-H:Class=org.example.Main
+--report-unsupported-elements-at-runtime
+-H:ConfigurationFileDirectories=E:\\code\\testAgent\\target\\native\\generated\\generateResourceConfig
+-H:ConfigurationFileDirectories=E:\\code\\testAgent\\target\\native\\generated\\generateResourceConfig

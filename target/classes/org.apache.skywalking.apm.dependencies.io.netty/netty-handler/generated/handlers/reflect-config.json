@@ -1,0 +1,632 @@
+[
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.address.DynamicAddressConnectHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.address.DynamicAddressConnectHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.address.ResolveAddressHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.address.ResolveAddressHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.base64.Base64Decoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.base64.Base64Decoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.base64.Base64Encoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.base64.Base64Encoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.bytes.ByteArrayDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.bytes.ByteArrayDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.bytes.ByteArrayEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.bytes.ByteArrayEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.ByteToMessageCodec",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.ByteToMessageCodec"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.ByteToMessageCodec$1",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.ByteToMessageCodec$1"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.ByteToMessageCodec$Encoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.ByteToMessageCodec$Encoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.ByteToMessageDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.ByteToMessageDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.BrotliDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.BrotliDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.BrotliEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.BrotliEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.Bzip2Decoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.Bzip2Decoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.Bzip2Encoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.Bzip2Encoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.FastLzFrameDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.FastLzFrameDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.FastLzFrameEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.FastLzFrameEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.JdkZlibDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.JdkZlibDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.JdkZlibEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.JdkZlibEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.JZlibDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.JZlibDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.JZlibEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.JZlibEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.Lz4FrameDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.Lz4FrameDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.Lz4FrameEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.Lz4FrameEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.LzfDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.LzfDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.LzfEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.LzfEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.LzmaFrameEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.LzmaFrameEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.SnappyFramedDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.SnappyFramedDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.SnappyFrameDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.SnappyFrameDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.SnappyFramedEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.SnappyFramedEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.SnappyFrameEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.SnappyFrameEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.ZlibDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.ZlibDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.ZlibEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.ZlibEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.ZstdEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.compression.ZstdEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.DatagramPacketDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.DatagramPacketDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.DatagramPacketEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.DatagramPacketEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.DelimiterBasedFrameDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.DelimiterBasedFrameDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.FixedLengthFrameDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.FixedLengthFrameDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.json.JsonObjectDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.json.JsonObjectDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.LengthFieldBasedFrameDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.LengthFieldBasedFrameDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.LengthFieldPrepender",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.LengthFieldPrepender"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.LineBasedFrameDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.LineBasedFrameDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.marshalling.CompatibleMarshallingDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.marshalling.CompatibleMarshallingDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.marshalling.CompatibleMarshallingEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.marshalling.CompatibleMarshallingEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.marshalling.MarshallingDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.marshalling.MarshallingDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.marshalling.MarshallingEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.marshalling.MarshallingEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageAggregator",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageAggregator"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToByteEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToByteEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToMessageCodec",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToMessageCodec"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToMessageCodec$1",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToMessageCodec$1"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToMessageCodec$2",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToMessageCodec$2"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToMessageDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToMessageDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToMessageEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.MessageToMessageEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufDecoderNano",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufDecoderNano"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufEncoderNano",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufEncoderNano"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.ReplayingDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.ReplayingDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.serialization.CompatibleObjectEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.serialization.CompatibleObjectEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.serialization.ObjectDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.serialization.ObjectDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.serialization.ObjectEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.serialization.ObjectEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.string.LineEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.string.LineEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.string.StringDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.string.StringDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.string.StringEncoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.string.StringEncoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.xml.XmlFrameDecoder",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.codec.xml.XmlFrameDecoder"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.flow.FlowControlHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.flow.FlowControlHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.flush.FlushConsolidationHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.flush.FlushConsolidationHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ipfilter.AbstractRemoteAddressFilter",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ipfilter.AbstractRemoteAddressFilter"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ipfilter.IpSubnetFilter",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ipfilter.IpSubnetFilter"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ipfilter.RuleBasedIpFilter",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ipfilter.RuleBasedIpFilter"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ipfilter.UniqueIpFilter",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ipfilter.UniqueIpFilter"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.logging.LoggingHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.logging.LoggingHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.pcap.PcapWriteHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.pcap.PcapWriteHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.AbstractSniHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.AbstractSniHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.ApplicationProtocolNegotiationHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.ApplicationProtocolNegotiationHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.ocsp.OcspClientHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.ocsp.OcspClientHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.OptionalSslHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.OptionalSslHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.SniHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.SniHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.SslClientHelloHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.SslClientHelloHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.SslHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.SslHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.SslMasterKeyHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.SslMasterKeyHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.SslMasterKeyHandler$WiresharkSslMasterKeyHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.ssl.SslMasterKeyHandler$WiresharkSslMasterKeyHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.stream.ChunkedWriteHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.stream.ChunkedWriteHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.timeout.IdleStateHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.timeout.IdleStateHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.timeout.ReadTimeoutHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.timeout.ReadTimeoutHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.timeout.WriteTimeoutHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.timeout.WriteTimeoutHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.traffic.AbstractTrafficShapingHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.traffic.AbstractTrafficShapingHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.traffic.ChannelTrafficShapingHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.traffic.ChannelTrafficShapingHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.traffic.GlobalChannelTrafficShapingHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.traffic.GlobalChannelTrafficShapingHandler"
+    },
+    "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.apache.skywalking.apm.dependencies.io.netty.handler.traffic.GlobalTrafficShapingHandler",
+    "condition": {
+      "typeReachable": "org.apache.skywalking.apm.dependencies.io.netty.handler.traffic.GlobalTrafficShapingHandler"
+    },
+    "queryAllPublicMethods": true
+  }
+]
