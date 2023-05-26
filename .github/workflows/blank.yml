@@ -14,3 +14,9 @@ jobs:
       - name: Example step
         run: |
           mvn -P native clean package
+      - name: upload result
+        uses: actions/upload-artifact@v1
+        with:
+          name: my-artifact
+          path: ${{ github.workspace }}/target
+
