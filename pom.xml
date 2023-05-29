@@ -154,7 +154,7 @@
                             </agent>
                             <classpath>
                                 <param>${project.build.directory}/${project.artifactId}-${project.version}-shaded.jar</param>
-                                <param>./skywalking-agent/skywalking-agent.jar</param>
+<!--                                <param>./skywalking-agent/skywalking-agent.jar</param>-->
                             </classpath>
                             <useArgFile>true</useArgFile>
                         </configuration>
