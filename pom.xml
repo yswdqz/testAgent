@@ -159,32 +159,32 @@
                             <useArgFile>true</useArgFile>
                         </configuration>
                     </plugin>
-<!--                    <plugin>-->
-<!--                        <groupId>org.codehaus.mojo</groupId>-->
-<!--                        <artifactId>exec-maven-plugin</artifactId>-->
-<!--                        <version>3.0.0</version>-->
-<!--                        <executions>-->
-<!--                            <execution>-->
-<!--                                <id>java-agent</id>-->
-<!--                                <goals>-->
-<!--                                    <goal>exec</goal>-->
-<!--                                </goals>-->
-<!--                                <phase>test</phase>-->
-<!--                                <configuration>-->
-<!--                                    <executable>java</executable>-->
-<!--                                    <workingDirectory>${project.build.directory}</workingDirectory>-->
-<!--                                    <arguments>-->
-<!--                                        <argument>-classpath</argument>-->
-<!--                                        <classpath/>-->
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>3.0.0</version>
+                        <executions>
+                            <execution>
+                                <id>java-agent</id>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <phase>test</phase>
+                                <configuration>
+                                    <executable>java</executable>
+                                    <workingDirectory>${project.build.directory}</workingDirectory>
+                                    <arguments>
+                                        <argument>-classpath</argument>
+                                        <classpath/>
 <!--                                        <argument>-Dskywalking.agent.service_name="test"</argument>-->
 <!--                                        <argument>-Dskywalking.collector.backend_service="43.152.204.48:11800"</argument>-->
-<!--                                        <argument>-javaagent:"E:\code\testAgent\apache-skywalking-java-agent-8.14.0\apache-skywalking-java-agent-8.14.0\skywalking-agent\skywalking-agent.jar"</argument>-->
-<!--                                        <argument>${mainClass}</argument>-->
-<!--                                    </arguments>-->
-<!--                                </configuration>-->
-<!--                            </execution>-->
-<!--                        </executions>-->
-<!--                    </plugin>-->
+                                        <argument>-javaagent:./simpleAgent-1.0.jar</argument>
+                                        <argument>${mainClass}</argument>
+                                    </arguments>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
                 </plugins>
             </build>
         </profile>
