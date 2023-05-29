@@ -178,7 +178,7 @@
                                         <classpath/>
 <!--                                        <argument>-Dskywalking.agent.service_name="test"</argument>-->
 <!--                                        <argument>-Dskywalking.collector.backend_service="43.152.204.48:11800"</argument>-->
-                                        <argument>-javaagent:./simpleAgent-1.0.jar</argument>
+<!--                                        <argument>-javaagent:./simpleAgent-1.0.jar</argument>-->
                                         <argument>${mainClass}</argument>
                                     </arguments>
                                 </configuration>
