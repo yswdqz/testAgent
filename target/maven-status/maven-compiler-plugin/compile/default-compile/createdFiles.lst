@@ -1,5 +1,0 @@
-org\example\Main$1.class
-org\example\Main.class
-org\example\LoggingSubstitutions.class
-org\example\Target_org_slf4j_LoggerFactory.class
-org\example\GraalVMRuntimeReflectionRegistrationFeature.class

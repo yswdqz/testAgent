@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>org.test</groupId>
     <artifactId>testAgent</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -12,7 +12,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mainClass>org.example.Main</mainClass>
+        <mainClass>org.test.Main</mainClass>
     </properties>
 
     <dependencies>
@@ -29,8 +29,20 @@
 <!--        </dependency>-->
 
         <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.14.3</version>
+        </dependency>
+        <dependency>
             <groupId>org.graalvm.nativeimage</groupId>
             <artifactId>svm</artifactId>
+            <scope>provided</scope>
+            <version>22.3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.graalvm.sdk</groupId>
+            <artifactId>graal-sdk</artifactId>
             <scope>provided</scope>
             <version>22.3.1</version>
         </dependency>
@@ -144,7 +156,7 @@
                                 <enabled>true</enabled>
                             </metadataRepository>
                             <buildArgs>
-                                <arg>--report-unsupported-elements-at-runtime</arg>
+<!--                                <arg>&#45;&#45;report-unsupported-elements-at-runtime</arg>-->
                             </buildArgs>
                             <agent>
                                 <enabled>true</enabled>
@@ -155,36 +167,40 @@
                             <classpath>
                                 <param>${project.build.directory}/${project.artifactId}-${project.version}-shaded.jar</param>
                                 <param>./skywalking-agent/skywalking-agent.jar</param>
+<!--                                <param>./skywalking-agent/simpleAgent-1.0.jar</param>-->
+<!--                                <param>./simpleAgent-1.0.jar</param>-->
                             </classpath>
                             <useArgFile>true</useArgFile>
                         </configuration>
                     </plugin>
-                    <plugin>
-                        <groupId>org.codehaus.mojo</groupId>
-                        <artifactId>exec-maven-plugin</artifactId>
-                        <version>3.0.0</version>
-                        <executions>
-                            <execution>
-                                <id>java-agent</id>
-                                <goals>
-                                    <goal>exec</goal>
-                                </goals>
-                                <phase>test</phase>
-                                <configuration>
-                                    <executable>java</executable>
-                                    <workingDirectory>${project.build.directory}</workingDirectory>
-                                    <arguments>
-                                        <argument>-classpath</argument>
-                                        <classpath/>
+<!--                    <plugin>-->
+<!--                        <groupId>org.codehaus.mojo</groupId>-->
+<!--                        <artifactId>exec-maven-plugin</artifactId>-->
+<!--                        <version>3.0.0</version>-->
+<!--                        <executions>-->
+<!--                            <execution>-->
+<!--                                <id>java-agent</id>-->
+<!--                                <goals>-->
+<!--                                    <goal>exec</goal>-->
+<!--                                </goals>-->
+<!--                                <phase>test</phase>-->
+<!--                                <configuration>-->
+<!--                                    <executable>java</executable>-->
+<!--                                    <workingDirectory>${project.build.directory}</workingDirectory>-->
+<!--                                    <arguments>-->
+<!--                                        <argument>-classpath</argument>-->
+<!--                                        <classpath/>-->
 <!--                                        <argument>-Dskywalking.agent.service_name="test"</argument>-->
 <!--                                        <argument>-Dskywalking.collector.backend_service="43.152.204.48:11800"</argument>-->
-<!--                                        <argument>-javaagent:./simpleAgent-1.0.jar</argument>-->
-                                        <argument>${mainClass}</argument>
-                                    </arguments>
-                                </configuration>
-                            </execution>
-                        </executions>
-                    </plugin>
+<!--&lt;!&ndash;                                        <argument>-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000</argument>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <argument>-javaagent:E:\gitee\yswdqz\testAgent\skywalking-agent\simpleAgent-1.0.jar</argument>&ndash;&gt;-->
+<!--                                        <argument>-javaagent:E:\gitee\yswdqz\testAgent\skywalking-agent\skywalking-agent.jar</argument>-->
+<!--                                        <argument>${mainClass}</argument>-->
+<!--                                    </arguments>-->
+<!--                                </configuration>-->
+<!--                            </execution>-->
+<!--                        </executions>-->
+<!--                    </plugin>-->
                 </plugins>
             </build>
         </profile>

@@ -1,0 +1,18 @@
+{
+  "resources":{
+  "includes":[
+    {
+      "pattern":"\\QMETA-INF/MANIFEST.MF\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/apache/skywalking/apm/agent/core/boot/AgentPackagePath.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/apache/skywalking/apm/dependencies/net/bytebuddy/dynamic/Nexus.class\\E"
+    }, 
+    {
+      "pattern":"\\Qskywalking-plugin.def\\E"
+    }
+  ]},
+  "bundles":[]
+}
