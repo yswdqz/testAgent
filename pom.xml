@@ -195,7 +195,8 @@
                                         <argument>-Dskywalking.collector.backend_service="43.152.204.48:11800"</argument>
 <!--                                        <argument>-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000</argument>-->
 <!--                                        <argument>-javaagent:E:\gitee\yswdqz\testAgent\skywalking-agent\simpleAgent-1.0.jar</argument>-->
-                                        <argument>-javaagent:E:\testAgent\skywalking-agent\skywalking-agent.jar</argument>
+<!--                                        <argument>-javaagent:E:\testAgent\skywalking-agent\skywalking-agent.jar</argument>-->
+                                        <argument>-javaagent:/home/runner/work/testAgent/testAgent/skywalking-agent/skywalking-agent.jar</argument>
                                         <argument>${mainClass}</argument>
                                     </arguments>
                                 </configuration>
