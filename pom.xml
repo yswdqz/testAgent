@@ -154,15 +154,16 @@
                             <mainClass>${mainClass}</mainClass>
                             <metadataRepository>
                                 <enabled>true</enabled>
+                                <localPath>E:\googleDownload\graalvm-reachability-metadata-master</localPath>
                             </metadataRepository>
                             <buildArgs>
 <!--                                <arg>&#45;&#45;report-unsupported-elements-at-runtime</arg>-->
                             </buildArgs>
                             <agent>
                                 <enabled>true</enabled>
-                                <options>
-                                    <enableExperimentalPredefinedClasses>true</enableExperimentalPredefinedClasses>
-                                </options>
+<!--                                <options>-->
+<!--                                    <enableExperimentalPredefinedClasses>true</enableExperimentalPredefinedClasses>-->
+<!--                                </options>-->
                             </agent>
                             <classpath>
                                 <param>${project.build.directory}/${project.artifactId}-${project.version}-shaded.jar</param>
@@ -173,34 +174,34 @@
                             <useArgFile>true</useArgFile>
                         </configuration>
                     </plugin>
-<!--                    <plugin>-->
-<!--                        <groupId>org.codehaus.mojo</groupId>-->
-<!--                        <artifactId>exec-maven-plugin</artifactId>-->
-<!--                        <version>3.0.0</version>-->
-<!--                        <executions>-->
-<!--                            <execution>-->
-<!--                                <id>java-agent</id>-->
-<!--                                <goals>-->
-<!--                                    <goal>exec</goal>-->
-<!--                                </goals>-->
-<!--                                <phase>test</phase>-->
-<!--                                <configuration>-->
-<!--                                    <executable>java</executable>-->
-<!--                                    <workingDirectory>${project.build.directory}</workingDirectory>-->
-<!--                                    <arguments>-->
-<!--                                        <argument>-classpath</argument>-->
-<!--                                        <classpath/>-->
-<!--                                        <argument>-Dskywalking.agent.service_name="test"</argument>-->
-<!--                                        <argument>-Dskywalking.collector.backend_service="43.152.204.48:11800"</argument>-->
-<!--&lt;!&ndash;                                        <argument>-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000</argument>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        <argument>-javaagent:E:\gitee\yswdqz\testAgent\skywalking-agent\simpleAgent-1.0.jar</argument>&ndash;&gt;-->
-<!--                                        <argument>-javaagent:E:\gitee\yswdqz\testAgent\skywalking-agent\skywalking-agent.jar</argument>-->
-<!--                                        <argument>${mainClass}</argument>-->
-<!--                                    </arguments>-->
-<!--                                </configuration>-->
-<!--                            </execution>-->
-<!--                        </executions>-->
-<!--                    </plugin>-->
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>3.0.0</version>
+                        <executions>
+                            <execution>
+                                <id>java-agent</id>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <phase>test</phase>
+                                <configuration>
+                                    <executable>java</executable>
+                                    <workingDirectory>${project.build.directory}</workingDirectory>
+                                    <arguments>
+                                        <argument>-classpath</argument>
+                                        <classpath/>
+                                        <argument>-Dskywalking.agent.service_name="test"</argument>
+                                        <argument>-Dskywalking.collector.backend_service="43.152.204.48:11800"</argument>
+<!--                                        <argument>-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000</argument>-->
+<!--                                        <argument>-javaagent:E:\gitee\yswdqz\testAgent\skywalking-agent\simpleAgent-1.0.jar</argument>-->
+                                        <argument>-javaagent:E:\testAgent\skywalking-agent\skywalking-agent.jar</argument>
+                                        <argument>${mainClass}</argument>
+                                    </arguments>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
                 </plugins>
             </build>
         </profile>
