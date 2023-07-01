@@ -1,0 +1,30 @@
+{
+  "resources":{
+  "includes":[
+    {
+      "pattern":"\\QMETA-INF/MANIFEST.MF\\E"
+    }, 
+    {
+      "pattern":"\\QMETA-INF/services/org.apache.skywalking.apm.agent.core.boot.BootService\\E"
+    }, 
+    {
+      "pattern":"\\QMETA-INF/services/org.apache.skywalking.apm.dependencies.io.grpc.LoadBalancerProvider\\E"
+    }, 
+    {
+      "pattern":"\\QMETA-INF/services/org.apache.skywalking.apm.dependencies.io.grpc.NameResolverProvider\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/apache/skywalking/apm/agent/core/boot/AgentPackagePath.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/apache/skywalking/apm/dependencies/net/bytebuddy/dynamic/Nexus.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/apache/skywalking/apm/dependencies/org/slf4j/impl/StaticLoggerBinder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qskywalking-plugin.def\\E"
+    }
+  ]},
+  "bundles":[]
+}

@@ -1,0 +1,1063 @@
+[
+{
+  "name":"[B"
+},
+{
+  "name":"[Ljava.lang.Class;"
+},
+{
+  "name":"[Ljava.lang.Object;"
+},
+{
+  "name":"[Ljava.lang.String;"
+},
+{
+  "name":"[Lsun.security.pkcs.SignerInfo;"
+},
+{
+  "name":"com.sun.crypto.provider.AESCipher$General",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DHParameters",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.TlsKeyMaterialGenerator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.TlsMasterSecretGenerator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.TlsPrfGenerator$V12",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.jndi.dns.DnsContextFactory"
+},
+{
+  "name":"java.lang.Class",
+  "methods":[
+    {"name":"getAnnotatedInterfaces","parameterTypes":[] }, 
+    {"name":"getAnnotatedSuperclass","parameterTypes":[] }, 
+    {"name":"getModule","parameterTypes":[] }, 
+    {"name":"getNestHost","parameterTypes":[] }, 
+    {"name":"getNestMembers","parameterTypes":[] }, 
+    {"name":"isNestmateOf","parameterTypes":["java.lang.Class"] }
+  ]
+},
+{
+  "name":"java.lang.ClassLoader",
+  "methods":[
+    {"name":"getDefinedPackage","parameterTypes":["java.lang.String"] }, 
+    {"name":"getUnnamedModule","parameterTypes":[] }, 
+    {"name":"registerAsParallelCapable","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.Module",
+  "methods":[
+    {"name":"addExports","parameterTypes":["java.lang.String","java.lang.Module"] }, 
+    {"name":"canRead","parameterTypes":["java.lang.Module"] }, 
+    {"name":"getClassLoader","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getResourceAsStream","parameterTypes":["java.lang.String"] }, 
+    {"name":"isExported","parameterTypes":["java.lang.String"] }, 
+    {"name":"isExported","parameterTypes":["java.lang.String","java.lang.Module"] }, 
+    {"name":"isNamed","parameterTypes":[] }, 
+    {"name":"isOpen","parameterTypes":["java.lang.String","java.lang.Module"] }
+  ]
+},
+{
+  "name":"java.lang.Object",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.ProcessHandle",
+  "methods":[
+    {"name":"current","parameterTypes":[] }, 
+    {"name":"pid","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.Runtime",
+  "methods":[{"name":"version","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Runtime$Version",
+  "methods":[{"name":"feature","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.SecurityManager",
+  "methods":[{"name":"checkPermission","parameterTypes":["java.security.Permission"] }]
+},
+{
+  "name":"java.lang.String"
+},
+{
+  "name":"java.lang.System",
+  "methods":[{"name":"getSecurityManager","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.instrument.ClassFileTransformer",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.instrument.Instrumentation",
+  "methods":[
+    {"name":"addTransformer","parameterTypes":["java.lang.instrument.ClassFileTransformer","boolean"] }, 
+    {"name":"isModifiableClass","parameterTypes":["java.lang.Class"] }, 
+    {"name":"isNativeMethodPrefixSupported","parameterTypes":[] }, 
+    {"name":"isRetransformClassesSupported","parameterTypes":[] }, 
+    {"name":"retransformClasses","parameterTypes":["java.lang.Class[]"] }, 
+    {"name":"setNativeMethodPrefix","parameterTypes":["java.lang.instrument.ClassFileTransformer","java.lang.String"] }
+  ]
+},
+{
+  "name":"java.lang.invoke.MethodHandle",
+  "methods":[
+    {"name":"bindTo","parameterTypes":["java.lang.Object"] }, 
+    {"name":"invokeWithArguments","parameterTypes":["java.lang.Object[]"] }
+  ]
+},
+{
+  "name":"java.lang.invoke.MethodHandles",
+  "methods":[{"name":"lookup","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.invoke.MethodHandles$Lookup",
+  "methods":[{"name":"findVirtual","parameterTypes":["java.lang.Class","java.lang.String","java.lang.invoke.MethodType"] }]
+},
+{
+  "name":"java.lang.invoke.MethodType",
+  "methods":[{"name":"methodType","parameterTypes":["java.lang.Class","java.lang.Class[]"] }]
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "methods":[{"name":"getInputArguments","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.AccessibleObject",
+  "fields":[{"name":"override"}]
+},
+{
+  "name":"java.lang.reflect.AnnotatedArrayType",
+  "methods":[{"name":"getAnnotatedGenericComponentType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.AnnotatedParameterizedType",
+  "methods":[{"name":"getAnnotatedActualTypeArguments","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.AnnotatedType",
+  "methods":[{"name":"getType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.AnnotatedTypeVariable",
+  "methods":[{"name":"getAnnotatedBounds","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.AnnotatedWildcardType",
+  "methods":[{"name":"getAnnotatedUpperBounds","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.Executable",
+  "methods":[
+    {"name":"getAnnotatedExceptionTypes","parameterTypes":[] }, 
+    {"name":"getAnnotatedParameterTypes","parameterTypes":[] }, 
+    {"name":"getAnnotatedReceiverType","parameterTypes":[] }, 
+    {"name":"getParameterCount","parameterTypes":[] }, 
+    {"name":"getParameters","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.reflect.Method",
+  "methods":[{"name":"getAnnotatedReturnType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.Parameter",
+  "methods":[
+    {"name":"getModifiers","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"isNamePresent","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.net.InetSocketAddress",
+  "methods":[{"name":"getHostString","parameterTypes":[] }]
+},
+{
+  "name":"java.nio.Bits",
+  "methods":[{"name":"unaligned","parameterTypes":[] }]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.ByteBuffer",
+  "methods":[{"name":"alignedSlice","parameterTypes":["int"] }]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "methods":[{"name":"<init>","parameterTypes":["long","int"] }]
+},
+{
+  "name":"java.security.AccessController"
+},
+{
+  "name":"java.security.AlgorithmParametersSpi"
+},
+{
+  "name":"java.security.KeyStoreSpi"
+},
+{
+  "name":"java.security.MessageDigestSpi"
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.security.interfaces.ECPrivateKey"
+},
+{
+  "name":"java.security.interfaces.ECPublicKey"
+},
+{
+  "name":"java.security.interfaces.RSAPrivateKey"
+},
+{
+  "name":"java.security.interfaces.RSAPublicKey"
+},
+{
+  "name":"java.sql.Date"
+},
+{
+  "name":"java.util.ArrayList",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.util.Date"
+},
+{
+  "name":"java.util.concurrent.atomic.LongAdder",
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"add","parameterTypes":["long"] }, 
+    {"name":"sum","parameterTypes":[] }
+  ]
+},
+{
+  "name":"javax.naming.directory.InitialDirContext"
+},
+{
+  "name":"javax.net.ssl.SSLParameters",
+  "methods":[{"name":"setApplicationProtocols","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"javax.net.ssl.SSLSocket",
+  "methods":[{"name":"getApplicationProtocol","parameterTypes":[] }]
+},
+{
+  "name":"javax.security.auth.x500.X500Principal",
+  "fields":[{"name":"thisX500Name"}],
+  "methods":[{"name":"<init>","parameterTypes":["sun.security.x509.X500Name"] }]
+},
+{
+  "name":"jdk.internal.misc.Unsafe",
+  "methods":[{"name":"getUnsafe","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.agent.SkyWalkingAgent",
+  "methods":[{"name":"premain","parameterTypes":["java.lang.String","java.lang.instrument.Instrumentation"] }]
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$Agent",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$Buffer",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$Collector",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$Correlation",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$Jvm",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$Log",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$Logging",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$Meter",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$OsInfo",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$Plugin",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$Profile",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.conf.Config$StatusCheck",
+  "allPublicFields":true,
+  "allPublicClasses":true
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.logging.core.converters.ClassConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.logging.core.converters.DateConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.logging.core.converters.LevelConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.logging.core.converters.MessageConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.logging.core.converters.ThreadConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.logging.core.converters.ThrowableConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.ConstructorInter"
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.EnhancedInstance"
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.InstMethodsInter"
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.InstMethodsInterWithOverrideArgs"
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.MethodInterceptResult"
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.OverrideCallable"
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.StaticMethodsInter"
+},
+{
+  "name":"org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.StaticMethodsInterWithOverrideArgs"
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.com.google.common.util.concurrent.AbstractFuture",
+  "fields":[
+    {"name":"listeners"}, 
+    {"name":"value"}, 
+    {"name":"waiters"}
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.com.google.common.util.concurrent.AbstractFuture$Waiter",
+  "fields":[
+    {"name":"next"}, 
+    {"name":"thread"}
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.com.google.protobuf.ExtensionRegistry",
+  "methods":[{"name":"getEmptyRegistry","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.grpc.internal.DnsNameResolverProvider"
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.grpc.internal.JndiResourceResolverFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.grpc.internal.PickFirstLoadBalancerProvider"
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.grpc.netty.AbstractNettyHandler",
+  "methods":[
+    {"name":"channelActive","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"exceptionCaught","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.grpc.netty.NettyClientHandler",
+  "methods":[
+    {"name":"channelInactive","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"close","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"write","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.grpc.netty.ProtocolNegotiators$GrpcNegotiationHandler",
+  "methods":[{"name":"userEventTriggered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.grpc.netty.ProtocolNegotiators$ProtocolNegotiationHandler",
+  "methods":[{"name":"userEventTriggered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.grpc.netty.ProtocolNegotiators$WaitUntilActiveHandler",
+  "methods":[{"name":"channelActive","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.grpc.netty.WriteBufferingAndExceptionHandler",
+  "methods":[
+    {"name":"channelInactive","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"close","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"connect","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"exceptionCaught","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"flush","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"write","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.grpc.util.SecretRoundRobinLoadBalancerProvider$Provider"
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.buffer.AbstractByteBufAllocator",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.buffer.AbstractReferenceCountedByteBuf",
+  "fields":[{"name":"refCnt"}]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelDuplexHandler",
+  "methods":[
+    {"name":"bind","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"close","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"connect","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"deregister","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"disconnect","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"flush","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"read","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"write","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelInboundHandlerAdapter",
+  "methods":[
+    {"name":"channelActive","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelInactive","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRegistered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelUnregistered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelWritabilityChanged","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"exceptionCaught","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"userEventTriggered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object"] }
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.channel.DefaultChannelPipeline$HeadContext",
+  "methods":[
+    {"name":"bind","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"channelActive","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelInactive","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRegistered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelUnregistered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelWritabilityChanged","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"close","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"connect","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"deregister","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"disconnect","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"exceptionCaught","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"flush","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"read","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"userEventTriggered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"write","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.channel.DefaultChannelPipeline$TailContext",
+  "methods":[
+    {"name":"channelActive","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelInactive","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRegistered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelUnregistered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelWritabilityChanged","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"exceptionCaught","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"userEventTriggered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object"] }
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.channel.socket.nio.NioSocketChannel",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.handler.codec.ByteToMessageDecoder",
+  "methods":[
+    {"name":"channelRead","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"userEventTriggered","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.lang.Object"] }
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.handler.codec.http2.Http2ConnectionHandler",
+  "methods":[
+    {"name":"bind","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"channelReadComplete","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelWritabilityChanged","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"connect","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"deregister","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"disconnect","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext","org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelPromise"] }, 
+    {"name":"flush","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"read","parameterTypes":["org.apache.skywalking.apm.dependencies.io.netty.channel.ChannelHandlerContext"] }
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.util.ReferenceCountUtil",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$Default$Dispatcher",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$Default$ExecutingTransformer",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"transform","parameterTypes":["java.lang.Object","java.lang.ClassLoader","java.lang.String","java.lang.Class","java.security.ProtectionDomain","byte[]"] }]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$Default$ExecutingTransformer$ByteBuddy$ModuleSupport",
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.skywalking.apm.dependencies.net.bytebuddy.ByteBuddy","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$Listener","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$PoolStrategy","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$TypeStrategy","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$LocationStrategy","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$Default$NativeMethodStrategy","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$InitializationStrategy","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$InjectionStrategy","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$LambdaInstrumentationStrategy","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$DescriptionStrategy","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$FallbackStrategy","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$ClassFileBufferStrategy","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$InstallationListener","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$RawMatcher","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$RedefinitionStrategy$ResubmissionEnforcer","java.util.List","org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$CircularityLock"] }]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.AgentBuilder$RedefinitionStrategy$Dispatcher",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.ResettableClassFileTransformer",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.agent.builder.ResettableClassFileTransformer$AbstractBase",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.method.MethodDescription$InDefinedShape$AbstractBase$Executable",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.method.ParameterDescription$ForLoadedParameter$Parameter",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.method.ParameterList$ForLoadedExecutable$Executable",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.type.TypeDefinition$Sort$AnnotatedType",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.type.TypeDescription$ForLoadedType$Dispatcher",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedExecutableExceptionType$Dispatcher",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedExecutableParameterType$Dispatcher",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedMethodReturnType$Dispatcher",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$ForComponentType$AnnotatedParameterizedType",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$ForTypeArgument$AnnotatedParameterizedType",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$ForTypeVariableBoundType$AnnotatedTypeVariable",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.description.type.TypeDescription$Generic$AnnotationReader$ForWildcardUpperBoundType$AnnotatedWildcardType",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.dynamic.Nexus",
+  "methods":[
+    {"name":"clean","parameterTypes":["java.lang.ref.Reference"] }, 
+    {"name":"initialize","parameterTypes":["java.lang.Class","int"] }, 
+    {"name":"register","parameterTypes":["java.lang.String","java.lang.ClassLoader","java.lang.ref.ReferenceQueue","int","java.lang.Object"] }
+  ]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$System",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.dynamic.loading.ClassInjector$UsingUnsafe$System",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.implementation.bind.annotation.AllArguments"
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.implementation.bind.annotation.AllArguments$Assignment"
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.implementation.bind.annotation.Morph"
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.implementation.bind.annotation.Origin"
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.implementation.bind.annotation.RuntimeType"
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.implementation.bind.annotation.SuperCall"
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.implementation.bind.annotation.This"
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.utility.Invoker",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.utility.Invoker$Dispatcher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.utility.JavaModule$Module",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.dependencies.net.bytebuddy.utility.JavaModule$Resolver",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.skywalking.apm.plugin.okhttp.v3.define.AsyncCallInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.plugin.okhttp.v3.define.CallbackInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.plugin.okhttp.v3.define.RealCallInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.kafka.define.KafkaOnMessageAnnotationInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.log4j.v1.x.SkyWalkingContextPatternConverterActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.log4j.v1.x.TraceIdPatternConverterActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.log4j.v1.x.log.GRPCLogAppenderActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.log4j.v2.x.SkyWalkingContextConverterActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.log4j.v2.x.TraceIdConverterActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.log4j.v2.x.async.AsyncAppenderInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.log4j.v2.x.async.AsyncLoggerConfigInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.log4j.v2.x.async.CreateMementoInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.log4j.v2.x.async.Log4jLogEventInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.log4j.v2.x.async.RingBufferLogEventInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.log4j.v2.x.log.GRPCLogAppenderActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.logback.v1.x.LogbackPatternConverterActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.logback.v1.x.LogbackSkyWalkingContextPatternConverterActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.logback.v1.x.async.AsyncAppenderBaseInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.logback.v1.x.async.LoggingEventInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.logback.v1.x.log.GRPCLogAppenderActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.logback.v1.x.logstash.SkyWalkingContextJsonProviderActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.logback.v1.x.logstash.TcpSocketAppenderActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.logback.v1.x.logstash.TraceIdJsonProviderActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.log.logback.v1.x.mdc.MDCConverterActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.meter.CounterActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.meter.GaugeActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.meter.HistogramActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.micrometer.MicrometerContextManagerThreadLocalAccessorInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.micrometer.MicrometerDefaultTracingHandlerInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.micrometer.MicrometerReceiverTracingHandlerInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.micrometer.MicrometerSenderTracingHandlerInstrumentation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.opentracing.continuation.SkywalkingContinuationActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.opentracing.span.SkywalkingSpanActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.opentracing.tracer.SkywalkingTracerActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.trace.ActiveSpanActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.trace.CallableOrRunnableActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.trace.IgnoredExceptionAnnotationActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.trace.TagAnnotationActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.trace.TraceAnnotationActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.trace.TraceContextActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.skywalking.apm.toolkit.activation.webflux.WebFluxSkyWalkingOperatorsActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.misc.Unsafe",
+  "allDeclaredFields":true,
+  "methods":[
+    {"name":"arrayBaseOffset","parameterTypes":["java.lang.Class"] }, 
+    {"name":"arrayIndexScale","parameterTypes":["java.lang.Class"] }, 
+    {"name":"copyMemory","parameterTypes":["long","long","long"] }, 
+    {"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, 
+    {"name":"getAndAddLong","parameterTypes":["java.lang.Object","long","long"] }, 
+    {"name":"getAndSetObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }, 
+    {"name":"getBoolean","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getByte","parameterTypes":["long"] }, 
+    {"name":"getByte","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getDouble","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getFloat","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getInt","parameterTypes":["long"] }, 
+    {"name":"getInt","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getLong","parameterTypes":["long"] }, 
+    {"name":"getLong","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getObject","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"invokeCleaner","parameterTypes":["java.nio.ByteBuffer"] }, 
+    {"name":"objectFieldOffset","parameterTypes":["java.lang.reflect.Field"] }, 
+    {"name":"putBoolean","parameterTypes":["java.lang.Object","long","boolean"] }, 
+    {"name":"putByte","parameterTypes":["long","byte"] }, 
+    {"name":"putByte","parameterTypes":["java.lang.Object","long","byte"] }, 
+    {"name":"putDouble","parameterTypes":["java.lang.Object","long","double"] }, 
+    {"name":"putFloat","parameterTypes":["java.lang.Object","long","float"] }, 
+    {"name":"putInt","parameterTypes":["long","int"] }, 
+    {"name":"putInt","parameterTypes":["java.lang.Object","long","int"] }, 
+    {"name":"putLong","parameterTypes":["long","long"] }, 
+    {"name":"putLong","parameterTypes":["java.lang.Object","long","long"] }, 
+    {"name":"putObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }, 
+    {"name":"storeFence","parameterTypes":[] }
+  ]
+},
+{
+  "name":"sun.nio.ch.SelectorImpl",
+  "fields":[
+    {"name":"publicSelectedKeys"}, 
+    {"name":"selectedKeys"}
+  ]
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.DRBG",
+  "methods":[{"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "name":"sun.security.provider.DSA$SHA224withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.DSA$SHA256withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.JavaKeyStore$JKS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA224",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA5$SHA384",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA5$SHA512",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.X509Factory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.certpath.PKIXCertPathValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.PSSParameters",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAKeyFactory$Legacy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAPSSSignature",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA224withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA256withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA512withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.SSLContextImpl$TLSContext",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.util.ObjectIdentifier"
+},
+{
+  "name":"sun.security.x509.AuthorityInfoAccessExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.AuthorityKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.BasicConstraintsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CRLDistributionPointsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CertificateExtensions"
+},
+{
+  "name":"sun.security.x509.CertificatePoliciesExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.ExtendedKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.IssuerAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.KeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.NetscapeCertTypeExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.PrivateKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+}
+]
